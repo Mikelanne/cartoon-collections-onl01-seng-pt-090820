@@ -18,8 +18,5 @@ end
 
 def find_the_cheese(array)
  cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include? (cheese_types)
-    array.detect
-  end
- # definitely use #detect.... but how?
-end
+  array.detect (cheese_types)
+end 
